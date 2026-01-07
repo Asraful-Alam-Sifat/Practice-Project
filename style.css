@@ -138,3 +138,34 @@ margin-left:auto;
 
 }
 
+.plan{
+    max-width:1140px;
+    /* border:1px solid black; */
+
+    margin-left:auto;
+    margin-right:250px;
+    margin-top:130px;
+}
+
+.plan h1{
+    font-weight: 700;
+    font-size:40px;
+    color:#151414;
+   text-align:center;
+}
+
+.plan-container{
+    display:flex;
+    justify-content:space-around;
+    margin-top:50px;
+}
+.plan-content{
+    box-shadow:10px -5px 15px lightgray ;
+    border-radius:5px;
+    max-width:180px;
+}
+.plan-content h2{
+    font-weight:700;
+    font-size:30px;
+    color:#151414;
+}
