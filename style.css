@@ -211,4 +211,9 @@ margin-left:auto;
 
     font-weight:600;
     font-size:20px;
+    cursor:pointer;
+}
+
+.btn-callNow:hover{
+    background-color:darkgray;
 }
