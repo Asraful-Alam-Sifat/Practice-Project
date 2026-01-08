@@ -217,3 +217,103 @@ margin-left:auto;
 .btn-callNow:hover{
     background-color:darkgray;
 }
+
+footer{
+    background-color:#151414;
+    color:#F8F8F8;
+    display:flex;
+    padding:130px 0;
+
+}
+
+.footer-info{
+    max-width:485px;
+    margin-right:auto;
+    margin-left:230px;
+
+}
+
+.footer-info h1{
+    font-weight:700;
+    font-size:45px;
+    color:#F8F8F8;
+    margin-bottom:16px;
+}
+
+.footer-info p{
+    font-weight:400;
+    font-size:16px;
+    color:#FFFFFF;
+    margin-bottom:24px;
+}
+.footer-logo{
+    width:185px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer-mail{
+    max-width:325px;
+    margin-left:auto;
+    margin-right:230px;
+    /* display:flex; */
+    /* justify-content: start; */
+}
+
+.footer-mail h1{
+    font-weight:600;
+    font-size:25px;
+    color:#FFFFFF;
+    margin-bottom:31px;
+}
+
+.footer-mail form{
+    position:relative;
+    margin-top:20px;
+}
+.footer-mail form label{
+    position:absolute;
+    top:24%;
+    left:10px;
+    transform:translateY(-50%);
+    transition:all 0.2 ease;
+    pointer-events:none;
+    color:#999;
+}
+
+.footer-mail form input{
+    width:300px;
+    padding:15px;
+    outline:none;
+    border:1px solid lightgray;
+    border-radius:5px;
+    margin-top:10px;
+    margin-bottom:16px;
+    background-color:#151414
+}
+
+.footer-mail form input:focus + label,
+ .footer-mail form input:not(:placeholder-shown) + label{
+  top:-15px;
+  left:5px;
+  margin-top:10px;
+  color:#F8F8F8;
+
+}
+
+.form-btn{
+    font-weight:600;
+    font-size:20px;
+    color:#F15B22;
+    padding:20px 36px;
+
+    border:none;
+    border-radius:5px;
+
+    /* margin-top:16px; */
+    cursor:pointer;
+}
+
+.form-btn:hover{
+    background-color:rgb(169, 169, 169);
+}
